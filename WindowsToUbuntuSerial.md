@@ -26,7 +26,7 @@ Use for example PuTTY to open port COM3X <a href="https://putty.org/">(putty.org
 
 <img src="Doc/com0comPuTTY.png" width="256">
 
-Now we have a fully functional COM3 port to which we can read and write (with outty)
+Now we have a fully functional COM3 port to which we can read and write (with PuTTY)
 
 ## Ubuntu
 
