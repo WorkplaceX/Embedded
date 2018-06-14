@@ -32,4 +32,4 @@ Now we have a fully functional COM3 port to which we can read and write (with ou
 
 Install PuTTY like this:
 
-<img src="Doc/com0comPuTTYInstall.png" width="256">
+<img src="Doc/PuTTYInstall.png" width="256">
