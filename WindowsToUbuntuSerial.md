@@ -2,7 +2,7 @@
 
 If you don't have a physical device attached to your Windows host system (typically COM3), you can simulate a serial device like this:
 
-Install Null-modem emulator com0com <a href="https://sourceforge.net/projects/com0com/" (sourceforge.net)</a>
+Install Null-modem emulator com0com <a href="https://sourceforge.net/projects/com0com/"> (sourceforge.net)</a>
 
 Create a new COM3 port like this
 
