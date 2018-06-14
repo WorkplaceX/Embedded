@@ -34,3 +34,50 @@ Succesful connection with a new ESP32 will look like this:
 <img src="Doc/PuttyESP32.png" width="256">
 
 Press the ESP32 "EN" button to retrigger serial output. For location of "EN" button see: <a href="http://esp-idf.readthedocs.io/en/latest/get-started/get-started-devkitc.html">(readthedocs.io)</a>
+
+# Setup Ubuntu
+Make sure Hyper-V is enabled on Windows.
+
+<img src="Doc/HyperVEnable.png" width="256">
+
+Download Ubuntu 18.04 LTS iso from <a href="https://www.ubuntu.com/download/desktop">(ubuntu.com)</a>
+
+Install virtual machine with Ubuntu
+* Generation 1
+* Assign at least 2048 MB memory
+* Select operating system (downloaded iso: ubuntu-18.04-desktop-amd64.iso)
+* Increase "Virtual Processors" up to 4
+* Start virtual machine
+* Select "Install Ubuntu"
+* Select "Minimal installation"
+
+In order to run Ubuntu on Windows in full screen install from Ubuntu terminal XRDP
+
+```
+~$ sudo apt-get install xrdp
+```
+
+Get IP address. Install first 
+
+```
+~$ sudo apt-get install net-tools
+```
+
+Now get IP address like this
+
+```
+~$ ifconfig
+```
+
+* Remember IP Address and logout.
+* Open Windows 10 Remote Desktop 
+
+<img src="Doc/RDS.png" width="256">
+
+* Login to Ubuntu XRDP
+
+<img src="Doc/XRDPLogin.png" width="256">
+
+* The following error (Authentication Required to create color managed device) you can cancel away
+
+<img src="Doc/XRDPAuthentication.png" width="256">
