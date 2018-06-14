@@ -81,3 +81,5 @@ Now get IP address like this
 * The following error (Authentication Required to create color managed device) you can cancel away
 
 <img src="Doc/XRDPAuthentication.png" width="256">
+
+# Establish Serial Communication between Windows 10 and Ubuntu 18.04
