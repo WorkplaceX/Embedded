@@ -14,8 +14,23 @@ See also:
 # Setup Serial Communication
 First we need to establish serial communication between ESP32 controller and Windows 10. For this connect ESP32 with Windows 10 over USB cable.
 
-It is necessary to install this driver:
-<a href="https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers">USB to UART Driver (silabs.com)</a>
+Install this driver:
+<a href="https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers">USB to UART Driver (silabs.com)</a> as described here: <a href="https://esp-idf.readthedocs.io/en/latest/get-started/establish-serial-connection.html">(readthedocs.io)<a/>
 
-See also: <a href="https://esp-idf.readthedocs.io/en/latest/get-started/establish-serial-connection.html">(readthedocs.io)<a/>
+Open Windows Device Manager and configure baud to 115200. It should look like this:
 
+<img src="Doc/DeviceManager.png" width="256">
+
+For a further test type "mode" into Windows command prompt.
+
+<img src="Doc/Mode.png" width="256">
+
+On Windows use for example Putty <a href="https://putty.org/">(putty.org)</a> to connect to device.
+
+<img src="Doc/Putty.png" width="256">
+
+Succesful connection with a new ESP32 will look like this:
+
+<img src="Doc/PuttyESP32.png" width="256">
+
+Press the ESP32 "EN" button to retrigger serial output. For location of "EN" button see: <a href="http://esp-idf.readthedocs.io/en/latest/get-started/get-started-devkitc.html">(readthedocs.io)</a>
